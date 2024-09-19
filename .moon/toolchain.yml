@@ -1,0 +1,11 @@
+node:
+  packageManager: 'pnpm'
+  version: '20'
+  addEnginesConstraint: true
+  dependencyVersionFormat: 'link'
+  pnpm:
+    version: '9.6.0'
+typescript:
+  syncProjectReferences: true
+  syncProjectReferencesToPaths: true
+  routeOutDirToCache: true

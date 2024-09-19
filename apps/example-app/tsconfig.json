@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compilerOptions": {
+    "outDir": "../../.moon/cache/types/apps/example-app",
+    "paths": {
+      "example-lib/": [
+        "../../libs/example-lib/src/*"
+      ],
+      "example-lib/*": [
+        "../../libs/example-lib/src/*"
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "../../libs/example-lib"
+    }
+  ]
+}

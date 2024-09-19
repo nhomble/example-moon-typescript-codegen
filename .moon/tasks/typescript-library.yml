@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://moonrepo.dev/schemas/tasks.json
+tasks:
+  build:
+    command:
+      - 'swc'
+      - 'src'
+      - --config='exclude=["\\.(spec|test)\\.ts$"]'
+      - '--out-dir=dist'
+      - '--source-maps'
+      - '--strip-leading-paths'
+    inputs:
+      - 'src/**/*'
+    outputs:
+      - 'dist'
+    deps:
+      - '^:build'

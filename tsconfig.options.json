@@ -1,0 +1,18 @@
+// https://www.npmjs.com/package/tsconfig-moon
+{
+  "extends": "tsconfig-moon.projects.json",
+  "compilerOptions": {
+    "lib": [
+      "es2022",
+    ],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "es2022",
+    "noEmit": false,
+    "noEmitOnError": true,
+    "composite": true
+  },
+  "include": [
+    "./**/*.ts"
+  ]
+}

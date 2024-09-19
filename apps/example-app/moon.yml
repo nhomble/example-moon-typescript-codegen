@@ -1,0 +1,13 @@
+id: example-app
+language: typescript
+type: application
+
+tasks:
+  run:
+    command:
+      - 'node'
+      - 'build/src/main.js'
+    inputs:
+      - 'src/**/*'
+    deps:
+      - '^:build'

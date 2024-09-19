@@ -1,0 +1,10 @@
+{
+  "name": "example-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "UNLICENSED",
+  "dependencies": {
+    "example-lib": "workspace:^"
+  }
+
+}
