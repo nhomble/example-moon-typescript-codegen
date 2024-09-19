@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://moonrepo.dev/schemas/tasks.json
+tasks:
+  codegen-clean:
+    options: 
+      runFromWorkspaceRoot: true
+    command: sh ./codegen/clean.sh $projectRoot
+    
+  codegen-build:
+    options:
+      cache: false
+      runFromWorkspaceRoot: true
+    command: sh ./codegen/run.sh $projectRoot $project
+
+  codegen:
+    options:
+      cache: false
+      runDepsInParallel: false
+    deps:
+      - codegen-clean
+      - codegen-build

@@ -11,10 +11,19 @@
       ],
       "example-lib/*": [
         "../../libs/example-lib/src/*"
+      ],
+      "example-codegen": [
+        "../../generated/example-codegen/src/index.ts"
+      ],
+      "example-codegen/*": [
+        "../../generated/example-codegen/src/*"
       ]
     }
   },
   "references": [
+    {
+      "path": "../../generated/example-codegen"
+    },
     {
       "path": "../../libs/example-lib"
     }

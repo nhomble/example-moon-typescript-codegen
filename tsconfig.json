@@ -9,6 +9,9 @@
       "path": "apps/example-app"
     },
     {
+      "path": "generated/example-codegen"
+    },
+    {
       "path": "libs"
     },
     {

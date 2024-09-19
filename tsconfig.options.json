@@ -1,6 +1,6 @@
 // https://www.npmjs.com/package/tsconfig-moon
 {
-  "extends": "tsconfig-moon.projects.json",
+  "extends": "tsconfig-moon.json",
   "compilerOptions": {
     "lib": [
       "es2022",
