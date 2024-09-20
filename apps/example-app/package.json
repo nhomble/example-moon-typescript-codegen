@@ -4,8 +4,9 @@
   "version": "1.0.0",
   "description": "UNLICENSED",
   "dependencies": {
-    "example-lib": "workspace:^",
+    "example-lib": "workspace:^"
+  },
+  "optionalDependencies": {
     "example-codegen": "workspace:^"
   }
-
 }
