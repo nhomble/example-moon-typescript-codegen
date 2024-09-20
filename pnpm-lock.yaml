@@ -65,12 +65,13 @@ importers:
 
   apps/example-app:
     dependencies:
-      example-codegen:
-        specifier: workspace:^
-        version: link:../../generated/example-codegen
       example-lib:
         specifier: workspace:^
         version: link:../../libs/example-lib
+    optionalDependencies:
+      example-codegen:
+        specifier: workspace:^
+        version: link:../../generated/example-codegen
 
   generated/example-codegen: {}
 
