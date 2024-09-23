@@ -24,4 +24,4 @@ While the action-graph does not show an edge between the `example-app` and the `
 
 | tool | version |
 | ---- | ------- |
-| moon | 1.27.8  |
+| moon | 1.28.3  |
