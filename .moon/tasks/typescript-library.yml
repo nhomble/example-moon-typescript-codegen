@@ -13,6 +13,4 @@ tasks:
     outputs:
       - 'dist'
     deps:
-      - target: '^:codegen'
-        optional: true
       - '^:build'
