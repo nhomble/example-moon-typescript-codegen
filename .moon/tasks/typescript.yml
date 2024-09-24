@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=https://moonrepo.dev/schemas/tasks.json
 
 implicitDeps:
-  - '^:codegen'
   - '^:build'
 
 implicitInputs:

@@ -13,4 +13,5 @@ tasks:
     outputs:
       - 'dist'
     deps:
+      - '^:codegen'
       - '^:build'
